@@ -1,0 +1,57 @@
+.navbar-brand{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 85%;
+}
+
+.image-fluid {
+	object-fit: cover;
+}
+
+/* cardsoverlay */
+#projects {
+	padding: 100px;
+}
+
+.overlay {
+	position: absolute;
+	top:50%;
+	left: 50%;
+	background-color: rgba(0, 123, 255, 0.7);
+	height: 100%;
+	width: 93%;
+	opacity: 0;
+	transition: .75s ease;
+}
+
+.ctr {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+	padding-top: 27%;
+}
+
+.imghov:hover .overlay{
+	opacity: 1;
+}
+
+
+/* Parallax */
+#plx {
+	background: url(../assets/images/Codingcolor.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.jtitle {
+	padding: 150px 20px;
+}
+
+.jtitle h2 {
+	font-size: 46px;
+	font-weight: bold;
+}
