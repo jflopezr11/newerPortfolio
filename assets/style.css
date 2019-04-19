@@ -1,3 +1,12 @@
+body {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#aboutme {
+	font-size: 20px;
+	font-weight: bold;
+
+}
 .navbar-brand{
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-size: 85%;
@@ -5,11 +14,13 @@
 
 .image-fluid {
 	object-fit: cover;
+	
 }
 
 /* cardsoverlay */
 #projects {
 	padding: 100px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .overlay {
@@ -37,6 +48,13 @@
 	opacity: 1;
 }
 
+#about {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#joshpic {
+	border-radius: 15px 50px 30px;
+}
 
 /* Parallax */
 #plx {
@@ -49,9 +67,13 @@
 }
 .jtitle {
 	padding: 150px 20px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .jtitle h2 {
 	font-size: 46px;
 	font-weight: bold;
 }
+
+/* footer */
+
