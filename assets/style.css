@@ -58,7 +58,7 @@ body {
 
 /* Parallax */
 #plx {
-	background: url(../assets/images/Codingcolor.jpg);
+	background: url(../assets/images/Codingcolor.jpg) ;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -77,3 +77,27 @@ body {
 
 /* footer */
 
+#footertop {
+	/* background-color: black; */
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#footerj {
+	background: url(../assets/images/Codingcolor.jpg) ;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#emailj {
+	color: white;
+}
+
+#infoj {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#goodbye {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
