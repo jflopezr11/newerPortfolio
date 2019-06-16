@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300" rel="stylesheet">
+    <!-- <script src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js"></script> -->
+    <script src="app.js"></script>
+
 </head>
 
 <body>
@@ -39,6 +42,8 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#">Projects</a>
                             <a class="dropdown-item" href="#">Contact</a>
+                            <a class="dropdown-item" href="assets/pdf/Joshua_Resume.pdf" width="800px"
+                                height="2100px">Resume</a>
                         </div>
                     </li>
                 </ul>
@@ -47,7 +52,8 @@
         <br><br>
         <div class="container">
             <div class="jtitle text-center text-light font-weight-bold">
-                <h2>Joshua Lopez <br> Full Stack Developer</h2>
+                <h2 data-shadow="Joshua Lopez">Joshua Lopez, MBA </h2>
+                <div id="developer"></div>
             </div>
         </div>
     </section>
@@ -79,51 +85,59 @@
                 <div class="col-md-3 col-sm-12 imghov" data-toggle="modal" data-target="#m1">
                     <img src="assets/images/CrystalGame.PNG" alt="Crystal Game" class="img-fluid">
                     <div class="overlay ctr text-light">
-                        <h6>Check me out!</h6>
+                        <h6>Crystal Game!</h6>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-12 imghov" data-toggle="modal" data-target="#m2">
                     <img src="assets/images/WordGuess.PNG" alt="Word Guess" class="img-fluid">
                     <div class="overlay ctr text-light">
-                        <h6>Check me out!</h6>
+                        <h6>Word Guess Game!</h6>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-12 imghov" data-toggle="modal" data-target="#m3">
                     <img src="assets/images/Giftastic.PNG" alt="Giftastic" class="img-fluid">
                     <div class="overlay ctr text-light">
-                        <h6>Check me out!</h6>
+                        <h6>GifTastic!</h6>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-12 imghov" data-toggle="modal" data-target="#m4">
                     <img src="assets/images/TrainScheduler.PNG" alt="Train Scheduler" class="img-fluid">
                     <div class="overlay ctr text-light">
-                        <h6>Check me out!</h6>
+                        <h6>Train Scheduler!</h6>
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row pb-4">
                 <div class="col-md-3 col-sm-12 imghov" data-toggle="modal" data-target="#m5">
                     <img src="assets/images/BAMAZON.PNG" alt="BAMAZON" class="img-fluid">
                     <div class="overlay ctr text-light">
-                        <h6>Check me out!</h6>
+                        <h6>Bamazon!</h6>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-12 imghov" data-toggle="modal" data-target="#m6">
                     <img src="assets/images/Eat-da-burger.PNG" alt="Eat-da-burger" class="img-fluid">
                     <div class="overlay ctr text-light">
-                        <h6>Check me out!</h6>
+                        <h6>Eat-Da-Burger!</h6>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-12 imghov" data-toggle="modal" data-target="#m7">
                     <img src="assets/images/TrailFinder.PNG" alt="TrailFinder" class="img-fluid">
                     <div class="overlay ctr text-light">
-                        <h6>Check me out!</h6>
+                        <h6>Trail Finder!</h6>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-12 imghov" data-toggle="modal" data-target="#m8">
                     <img src="assets/images/Wellnest.PNG" alt="Wellnest" class="img-fluid">
                     <div class="overlay ctr text-light">
-                        <h6>Check me out!</h6>
+                        <h6>WellNest!</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-12 imghov" data-toggle="modal" data-target="#m9">
+                    <img src="assets/images/InvenStory.PNG" alt="InvenStory" class="img-fluid">
+                    <div class="overlay ctr text-light">
+                        <h6>InvenStory!</h6>
                     </div>
                 </div>
             </div>
@@ -143,7 +157,7 @@
                             </ul>
                         </div>
                         <div class="modal-footer">
-                            <a href="https://github.com/jflopezr11" i class="fab fa-github"></i></a>
+                            <a href="https://github.com/jflopezr11/unit-4-game" i class="fab fa-github"></i></a>
                             <a href="https://jflopezr11.github.io/unit-4-game/" i class="fas fa-laptop-code"></i></a>
                         </div>
                     </div>
@@ -165,8 +179,9 @@
                             </ul>
                         </div>
                         <div class="modal-footer">
-                            <a href="https://github.com/jflopezr11" i class="fab fa-github"></i></a>
-                            <a href="https://jflopezr11.github.io/Word-Guess-Game/" i
+                            <a href="https://github.com/jflopezr11/Word-Guess-Game" target="_blank" i
+                                class="fab fa-github"></i></a>
+                            <a href="https://jflopezr11.github.io/Word-Guess-Game/" target="_blank" i
                                 class="fas fa-laptop-code"></i></a>
                         </div>
                     </div>
@@ -188,7 +203,8 @@
                             </ul>
                         </div>
                         <div class="modal-footer">
-                            <a href="https://github.com/jflopezr11" i class="fab fa-github"></i></a>
+                            <a href="https://github.com/jflopezr11/GifTastic" target="_blank" i
+                                class="fab fa-github"></i></a>
                             <a href="https://jflopezr11.github.io/GifTastic/" i class="fas fa-laptop-code"></i></a>
                         </div>
                     </div>
@@ -210,8 +226,9 @@
                             </ul>
                         </div>
                         <div class="modal-footer">
-                            <a href="https://github.com/jflopezr11" i class="fab fa-github"></i></a>
-                            <a href="https://jflopezr11.github.io/Train-Scheduler/" i
+                            <a href="https://github.com/jflopezr11/Train-Scheduler" target="_blank" i
+                                class="fab fa-github"></i></a>
+                            <a href="https://jflopezr11.github.io/Train-Scheduler/" target="_blank" i
                                 class="fas fa-laptop-code"></i></a>
                         </div>
                     </div>
@@ -232,8 +249,10 @@
                             </ul>
                         </div>
                         <div class="modal-footer">
-                            <a href="https://github.com/jflopezr11" i class="fab fa-github"></i></a>
-                            <a href="https://github.com/jflopezr11/bamazong" i class="fas fa-laptop-code"></i></a>
+                            <a href="https://github.com/jflopezr11/bamazong" target="_blank" i
+                                class="fab fa-github"></i></a>
+                            <a href="https://github.com/jflopezr11/bamazong" target="_blank" i
+                                class="fas fa-laptop-code"></i></a>
                         </div>
                     </div>
                 </div>
@@ -254,8 +273,9 @@
                             </ul>
                         </div>
                         <div class="modal-footer">
-                            <a href="https://github.com/jflopezr11" i class="fab fa-github"></i></a>
-                            <a href="https://limitless-plains-57065.herokuapp.com/" i
+                            <a href="https://github.com/jflopezr11/Burger" target="_blank" i
+                                class="fab fa-github"></i></a>
+                            <a href="https://limitless-plains-57065.herokuapp.com/" target="_blank" i
                                 class="fas fa-laptop-code"></i></a>
                         </div>
                     </div>
@@ -280,8 +300,9 @@
                             </ul>
                         </div>
                         <div class="modal-footer">
-                            <a href="https://github.com/jflopezr11" i class="fab fa-github"></i></a>
-                            <a href="https://jflopezr11.github.io/TrailfinderProject/" i
+                            <a href="https://github.com/jflopezr11/TrailfinderProject" target="_blank" i
+                                class="fab fa-github"></i></a>
+                            <a href="https://jflopezr11.github.io/TrailfinderProject/" target="_blank" i
                                 class="fas fa-laptop-code"></i></a>
                         </div>
                     </div>
@@ -309,13 +330,46 @@
                             </ul>
                         </div>
                         <div class="modal-footer">
-                            <a href="https://github.com/jflopezr11" i class="fab fa-github"></i></a>
-                            <a href="https://wellnest-project.herokuapp.com/" i class="fas fa-laptop-code"></i></a>
+                            <a href="https://github.com/jflopezr11/wellnest" target="_blank" i
+                                class="fab fa-github"></i></a>
+                            <a href="https://wellnest-project.herokuapp.com/" target="_blank" i
+                                class="fas fa-laptop-code"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-
+            <div id="m9" class="modal fade">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">InvenStory</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p> Tech used:</p>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Bootstrap</li>
+                                <li>Flexbox</li>
+                                <li>Passport.js</li>
+                                <li>Node.js</li>
+                                <li>Express.js</li>
+                                <li>MongoDB</li>
+                                <li>React</li>
+                                <li>Radium</li>
+                                <li>EJS</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="https://github.com/jflopezr11/Invenstory" target="_blank" i
+                                class="fab fa-github"></i></a>
+                            <a href="https://boiling-escarpment-83549.herokuapp.com/" target="_blank" i
+                                class="fas fa-laptop-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -346,11 +400,11 @@
                             <i class="fab fa-google-plus-g white-text mr-4"> </i>
                         </a>
                         <!--Linkedin -->
-                        <a href="https://www.linkedin.com/in/joshua-lopez-mba-914bb653/" class="li-ic">
+                        <a href="https://www.linkedin.com/in/joshua-lopez-mba-914bb653/" target="_blank" class="li-ic">
                             <i class="fab fa-linkedin-in white-text mr-4"> </i>
                         </a>
                         <!--Instagram-->
-                        <a href="https://www.instagram.com/joshie.keto.bjj/" class="ins-ic">
+                        <a href="https://www.instagram.com/joshie.keto.bjj/" target="_blank" class="ins-ic">
                             <i class="fab fa-instagram white-text"> </i>
                         </a>
 
@@ -388,7 +442,8 @@
                     <p>
                         <i class="fas fa-home mr-3 text-light"></i> Los Angeles, California 90035, US</p>
                     <p>
-                        <i a href="mailto:joshualopezroque@gmail.com?Subject=Hello%20again" target="_top" class="fas fa-envelope mr-3 text-light" id="emailj"> joshualopezroque@gmail.com </i></a></p>
+                        <i a href="mailto:joshualopezroque@gmail.com?Subject=Hello%20again" target="_top"
+                            class="fas fa-envelope mr-3 text-light" id="emailj"> joshualopezroque@gmail.com </i></a></p>
 
                 </div>
                 <!-- Grid column -->
@@ -401,7 +456,8 @@
 
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3 text-light" id="goodbye">© 2019 Copyright:
-            <a href="https://www.linkedin.com/in/joshua-lopez-mba-914bb653/" class="text-light"> Joshua Lopez</a>
+            <a href="https://www.linkedin.com/in/joshua-lopez-mba-914bb653/" target="_blank" class="text-light"> Joshua
+                Lopez</a>
         </div>
         <!-- Copyright -->
 
@@ -420,6 +476,27 @@
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
+    <script>
+        var app = document.getElementById('developer');
+
+        var typewriter = new Typewriter(app, {
+            loop: true
+        });
+
+        typewriter.typeString('Hello World!')
+            .pauseFor(2000)
+            .deleteAll()
+            .typeString('<strong>Full Stack Web Developer</strong>')
+            .pauseFor(2000)
+            .deleteAll()
+            .typeString('<strong>Front End Developer</strong>')
+            .pauseFor(2000)
+            .deleteAll()
+            .typeString('Back End Developer')
+            .pauseFor(2000)
+            .start();
     </script>
 </body>
 

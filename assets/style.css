@@ -17,6 +17,14 @@ body {
 	
 }
 
+#navbarNavDropdown {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#developer {
+	font-size: 200%
+}
+
 /* cardsoverlay */
 #projects {
 	padding: 100px;
@@ -53,7 +61,7 @@ body {
 }
 
 #joshpic {
-	border-radius: 15px 50px 30px;
+	border-radius: 16px 50px 40px;
 }
 
 /* Parallax */
@@ -101,3 +109,4 @@ body {
 #goodbye {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
+
